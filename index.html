@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EFHERD — The Digital Portfolio</title>
+<meta name="description" content="Portfolio of a Computer Engineering student exploring software development, application design, and cybersecurity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="entrance">
+<a class="skip" href="#main">Skip to content</a>
+<main id="main" class="world">
+  <canvas id="world" aria-hidden="true"></canvas>
+  <h1 class="sr">EFHERD — Computer Engineering student</h1>
+  <div class="hud hud--top mono e"><span>PERSONAL ARCHIVE / 001</span><span>THE DIGITAL ARCHIVE</span></div>
+  <figure class="hud hud--fig e" style="--d:.4s"><div id="profile-fig"></div><figcaption class="mono">THE CREATOR</figcaption></figure>
+  <div class="hud hud--cta e" style="--d:.8s">
+    <p class="role">Computer Engineering student and aspiring software engineer &amp; cybersecurity professional.</p>
+    <p class="quote">Ideas in Progress. Possibilities in Motion.</p>
+    <a class="enter" href="portfolio.html" data-transition>ENTER PORTFOLIO <i aria-hidden="true">↗</i></a>
+    <p class="mono">OR SWIM THE DOLPHIN INTO THE RING</p>
+  </div>
+</main>
+<div class="veil" aria-hidden="true"></div>
+<script src="script.js"></script>
+<script src="world.js"></script>
+</body>
+</html>
